@@ -1,0 +1,62 @@
+.card-container {
+  width: 395px;
+}
+
+.card-container img {
+  width: 395px;
+  height: 269px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.card-container h3 {
+  color: #333;
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.super-host {
+  display: flex;
+  width: 100px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #4f4f4f;
+  color: #4f4f4f;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-hosting-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0 0 0;
+}
+.card-hosting-type-text {
+  color: var(--gray-3, #828282);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card-hosting-type-rate {
+  display: flex;
+  align-items: center;
+}
+.card-hosting-type-rate span {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

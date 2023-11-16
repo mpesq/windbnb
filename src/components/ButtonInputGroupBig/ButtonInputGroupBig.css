@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+.ButtonInputGroupBig-container {
+  width: 80%;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #f2f2f2;
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 0.1rem;
+}
+
+.ButtonInputGroupBig-container-input-location {
+  border: none;
+  border-radius: 16px 0 0 16px;
+  width: 40%;
+  font-family: "Mulish", sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.ButtonInputGroupBig-container-input-location::placeholder {
+  color: #BDBDBD;
+}
+
+.ButtonInputGroupBig-container-input-guests {
+  border: none;
+  width: 40%;
+  font-family: "Mulish", sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0 0 0 0.5rem;
+}
+
+.ButtonInputGroupBig-container-input-guests::placeholder {
+  color: #BDBDBD;
+}
+
+.ButtonInputGroupBig-container button {
+  border: none;
+  background: #fff;
+  border-radius: 0 16px 16px 0;
+  width: 20%;
+}
