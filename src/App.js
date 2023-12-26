@@ -13,7 +13,7 @@ import HeaderHidden from "./components/HeaderHidden/HeaderHidden";
 function App() {
   return (
     <div className="App">
-      <HeaderHidden />
+      
       <div className="App-container">
         <div className="App-wrapper">
           <Header />
