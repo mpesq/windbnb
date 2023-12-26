@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "./ButtonInputGroupBig.css";
 
-const ButtonInputGroupBig = () => {
+function ButtonInputGroupBig()  {
   const [inputLocationValue, setInputLocationValue] = useState("");
 
   const handleInputLocationChange = (event) => {
@@ -14,8 +14,6 @@ const ButtonInputGroupBig = () => {
   const handleInputGuestsChange = (event) => {
     setInputGuestsValue(event.target.value);
   };
-
-
 
   return (
     <div className="ButtonInputGroupBig-container">

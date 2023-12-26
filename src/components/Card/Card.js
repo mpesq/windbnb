@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.css";
 import apartment from "../../assets/apartment1.png";
 
-const Card = ({ type, rate, picture, title, superhost }) => {
+function Card({ type, rate, picture, title, superhost })  {
   return (
     <div className="card-container">
       <img className="card-image" src={picture} alt="apartment" />

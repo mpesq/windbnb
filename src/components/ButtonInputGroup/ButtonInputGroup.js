@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "./ButtonInputGroup.css";
 
-const ButtonInputGroup = () => {
+function ButtonInputGroup() {
   const [inputLocationValue, setInputLocationValue] = useState("");
 
   const handleInputLocationChange = (event) => {
@@ -14,8 +14,6 @@ const ButtonInputGroup = () => {
   const handleInputGuestsChange = (event) => {
     setInputGuestsValue(event.target.value);
   };
-
-
 
   return (
     <div className="ButtonInputGroup-container">
